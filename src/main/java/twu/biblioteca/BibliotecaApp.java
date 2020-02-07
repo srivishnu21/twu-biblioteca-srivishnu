@@ -1,8 +1,9 @@
-package com.twu.biblioteca;
+package twu.biblioteca;
 
 public class BibliotecaApp {
 
     public static void main(String[] args) {
+
         System.out.println("Hello, world!");
     }
 }

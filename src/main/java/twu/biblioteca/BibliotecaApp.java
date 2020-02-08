@@ -1,7 +1,6 @@
 package twu.biblioteca;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class BibliotecaApp {
@@ -26,6 +25,5 @@ public class BibliotecaApp {
     public static List<Book> getListOfBooks() {
         return new ArrayList<>();
     }
-
 
 }

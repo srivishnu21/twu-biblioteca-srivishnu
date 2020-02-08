@@ -27,6 +27,7 @@ class BibliotecaAppTest {
 
         BibliotecaApp.displayListOfBooks(bookList);
 
-        verify(mockedPrintStream,times(2)).println(anyString());
+        verify(mockedPrintStream,times(1)).println("book1");
+        verify(mockedPrintStream,times(1)).println("book2");
     }
 }
